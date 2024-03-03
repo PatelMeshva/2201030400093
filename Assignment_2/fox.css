@@ -1,0 +1,110 @@
+.fox-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-peru);
+  width: 1440px;
+  height: 73px;
+}
+.logo-icon8 {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 46.5px;
+  height: 41.1px;
+}
+.about5,
+.home6 {
+  position: absolute;
+  color: var(--color-snow);
+}
+.home6 {
+  top: 18px;
+  left: 84px;
+  cursor: pointer;
+}
+.about5 {
+  top: 19px;
+  left: 307px;
+}
+.profile-icon6,
+.stories7 {
+  position: absolute;
+  cursor: pointer;
+}
+.stories7 {
+  top: 19px;
+  left: 190px;
+  color: var(--color-snow);
+}
+.profile-icon6 {
+  height: 5.29%;
+  width: 3.88%;
+  top: 1.02%;
+  right: 0.39%;
+  bottom: 93.69%;
+  left: 95.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.the-fox-and {
+  position: absolute;
+  top: calc(50% - 404px);
+  left: 444px;
+  font-size: var(--font-size-37xl);
+  display: inline-block;
+  width: 552px;
+  height: 57px;
+}
+.fox-1-icon {
+  position: absolute;
+  top: 201px;
+  left: 60px;
+  border-radius: var(--br-21xl);
+  width: 591.1px;
+  height: 344px;
+  object-fit: cover;
+}
+.one-day-a {
+  margin: 0;
+}
+.one-day-a-container {
+  position: absolute;
+  top: 200px;
+  left: 681px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 714px;
+}
+.he-tried-a-container,
+.never-despise-what,
+.the-moral1 {
+  position: absolute;
+  left: 60px;
+  font-size: var(--font-size-11xl);
+}
+.he-tried-a-container {
+  top: 581px;
+  display: inline-block;
+  width: 1358px;
+}
+.never-despise-what,
+.the-moral1 {
+  top: 833px;
+}
+.the-moral1 {
+  top: 765px;
+  font-size: var(--font-size-29xl);
+}
+.fox {
+  width: 1263.58px;
+  position: relative;
+  background-color: var(--color-sienna);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-imprima);
+}

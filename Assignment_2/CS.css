@@ -1,0 +1,91 @@
+.cs-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-peru);
+  width: 1440px;
+  height: 73px;
+}
+.logo-icon5 {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 46.5px;
+  height: 41.1px;
+}
+.about2,
+.home3 {
+  position: absolute;
+  color: var(--color-snow);
+}
+.home3 {
+  top: 18px;
+  left: 84px;
+  cursor: pointer;
+}
+.about2 {
+  top: 19px;
+  left: 307px;
+}
+.profile-icon3,
+.stories4 {
+  position: absolute;
+  cursor: pointer;
+}
+.stories4 {
+  top: 19px;
+  left: 190px;
+  color: var(--color-snow);
+}
+.profile-icon3 {
+  height: 5.29%;
+  width: 3.88%;
+  top: 1.02%;
+  right: 0.39%;
+  bottom: 93.69%;
+  left: 95.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.children-stories2 {
+  position: absolute;
+  top: 107px;
+  left: 60px;
+  font-size: 60.2px;
+}
+.the-boy-who-cried-wolf {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-32xl);
+}
+.the-boy-who-container,
+.the-fox-and-container,
+.the-golden-touch-container {
+  position: absolute;
+  top: 211px;
+  left: 60px;
+  font-size: var(--font-size-19xl);
+  cursor: pointer;
+}
+.the-fox-and-container,
+.the-golden-touch-container {
+  top: 255px;
+  left: 60px;
+}
+.the-fox-and-container {
+  top: 299px;
+  left: 60px;
+}
+.cs {
+  width: 1263.58px;
+  position: relative;
+  background-color: var(--color-sienna);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-imprima);
+}

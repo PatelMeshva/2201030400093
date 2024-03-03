@@ -1,0 +1,252 @@
+.cookies {
+  position: relative;
+  line-height: 20px;
+}
+.cookies-parent,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+}
+.footer {
+  position: absolute;
+  top: 910px;
+  right: 3px;
+  gap: 0 99.5px;
+  font-size: var(--font-size-xs);
+}
+.create-account {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.button,
+.sign-up {
+  position: absolute;
+  width: 479px;
+}
+.button {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--buttons-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+}
+.sign-up {
+  top: 756px;
+  left: 58px;
+  height: 56px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--buttons);
+}
+.did-you-forget {
+  position: absolute;
+  top: 671px;
+  left: 357px;
+  line-height: 20px;
+}
+.button1 {
+  position: absolute;
+  top: 587px;
+  left: 6px;
+  border-radius: var(--br-8xs);
+  background-color: var(--buttons);
+  width: 583px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  color: var(--white);
+}
+.email,
+.johndoegmailcom {
+  width: 314px;
+  position: relative;
+}
+.email {
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.johndoegmailcom {
+  line-height: 24px;
+  display: none;
+  height: 24px;
+  flex-shrink: 0;
+}
+.input,
+.input-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  border: 1.5px solid var(--body);
+  padding: var(--padding-base);
+}
+.input-password {
+  position: absolute;
+  top: 475px;
+  left: 6px;
+  width: 583px;
+  gap: 8px 0;
+  color: var(--titles);
+}
+.johndoegmailcom1 {
+  width: 314px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.input-email {
+  position: absolute;
+  top: 367px;
+  left: 6px;
+  width: 583px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  color: var(--titles);
+}
+.or-child,
+.or1 {
+  position: relative;
+}
+.or-child {
+  flex: 1;
+  border-top: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  height: 1px;
+}
+.or1 {
+  letter-spacing: 0.01em;
+  line-height: 100%;
+}
+.or {
+  position: absolute;
+  top: 315px;
+  left: 85px;
+  width: 388px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  gap: 0 16px;
+  text-align: center;
+  color: #294957;
+  font-family: var(--font-roboto);
+}
+.facebook-icon,
+.google-icon {
+  width: 28px;
+  position: relative;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon {
+  display: none;
+}
+.sign-in-with,
+.social-button {
+  display: flex;
+  align-items: center;
+}
+.sign-in-with {
+  width: 159px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  flex-shrink: 0;
+}
+.social-button {
+  position: absolute;
+  top: 230px;
+  left: 85px;
+  border-radius: 12px;
+  background-color: #f3f9fa;
+  width: 388px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 9px;
+  box-sizing: border-box;
+  gap: 0 16px;
+  color: var(--secondary-text);
+  font-family: var(--font-roboto);
+}
+.login-with-the {
+  top: 167px;
+  line-height: 20px;
+}
+.login-with-the,
+.login2,
+.logo-icon1 {
+  position: absolute;
+  left: 6px;
+}
+.login2 {
+  top: 101px;
+  font-size: var(--font-size-29xl);
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.logo-icon1 {
+  top: 0;
+  width: 55px;
+  height: 55px;
+}
+.login1 {
+  position: absolute;
+  top: 62px;
+  left: 666px;
+  width: 589px;
+  height: 930px;
+}
+.img-icon {
+  width: 618px;
+  position: relative;
+  height: 1024px;
+  object-fit: cover;
+}
+.image-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--input-labels-size);
+  color: var(--color-dimgray);
+  font-family: var(--input-labels);
+}

@@ -1,0 +1,104 @@
+.golden-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-peru);
+  width: 1440px;
+  height: 73px;
+}
+.logo-icon7 {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 46.5px;
+  height: 41.1px;
+}
+.about4,
+.home5 {
+  position: absolute;
+  color: var(--color-snow);
+}
+.home5 {
+  top: 18px;
+  left: 84px;
+  cursor: pointer;
+}
+.about4 {
+  top: 19px;
+  left: 307px;
+}
+.profile-icon5,
+.stories6 {
+  position: absolute;
+  cursor: pointer;
+}
+.stories6 {
+  top: 19px;
+  left: 190px;
+  color: var(--color-snow);
+}
+.profile-icon5 {
+  height: 5.29%;
+  width: 3.88%;
+  top: 1.02%;
+  right: 0.39%;
+  bottom: 93.69%;
+  left: 95.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.the-golden-touch1 {
+  position: absolute;
+  top: calc(50% - 404px);
+  left: 481px;
+  font-size: var(--font-size-37xl);
+}
+.golden-1-icon {
+  position: absolute;
+  top: 208px;
+  left: 60px;
+  border-radius: var(--br-21xl);
+  width: 555.9px;
+  height: 344px;
+  object-fit: cover;
+}
+.there-once-was {
+  margin: 0;
+}
+.hungry-midas-groaned-container,
+.there-once-was-container {
+  position: absolute;
+  top: 208px;
+  left: 655px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 763px;
+}
+.hungry-midas-groaned-container {
+  top: 628px;
+  left: 60px;
+  width: 1326px;
+}
+.greed-will-always,
+.the-moral {
+  position: absolute;
+  top: 767px;
+  left: 60px;
+  font-size: var(--font-size-29xl);
+}
+.greed-will-always {
+  top: 838px;
+  font-size: var(--font-size-11xl);
+}
+.golden {
+  width: 1263.58px;
+  position: relative;
+  background-color: var(--color-sienna);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-imprima);
+}

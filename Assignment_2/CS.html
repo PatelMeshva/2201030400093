@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./CS.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cs">
+      <div class="cs-child"></div>
+      <img class="logo-icon5" alt="" src="./public/logo.svg" />
+
+      <div class="home3" id="homeText">Home</div>
+      <div class="about2">About</div>
+      <div class="stories4" id="storiesText">Stories</div>
+      <img
+        class="profile-icon3"
+        alt=""
+        src="./public/profile.svg"
+        id="profile"
+      />
+
+      <div class="children-stories2">Children stories :</div>
+      <div class="the-boy-who-container" id="theBoyWho">
+        <ul class="the-boy-who-cried-wolf">
+          <li>The boy who cried wolf</li>
+        </ul>
+      </div>
+      <div class="the-golden-touch-container" id="theGoldenTouch">
+        <ul class="the-boy-who-cried-wolf">
+          <li>The golden touch</li>
+        </ul>
+      </div>
+      <div class="the-fox-and-container" id="theFoxAnd">
+        <ul class="the-boy-who-cried-wolf">
+          <li>The fox and the grapes</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var storiesText = document.getElementById("storiesText");
+      if (storiesText) {
+        storiesText.addEventListener("click", function (e) {
+          window.location.href = "./story.html";
+        });
+      }
+      
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var theBoyWho = document.getElementById("theBoyWho");
+      if (theBoyWho) {
+        theBoyWho.addEventListener("click", function (e) {
+          window.location.href = "./wolf.html";
+        });
+      }
+      
+      var theGoldenTouch = document.getElementById("theGoldenTouch");
+      if (theGoldenTouch) {
+        theGoldenTouch.addEventListener("click", function (e) {
+          window.location.href = "./golden.html";
+        });
+      }
+      
+      var theFoxAnd = document.getElementById("theFoxAnd");
+      if (theFoxAnd) {
+        theFoxAnd.addEventListener("click", function (e) {
+          window.location.href = "./fox.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-peru);
+  width: 1440px;
+  height: 73px;
+}
+.logo-icon {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 46.5px;
+  height: 41.1px;
+}
+.home1 {
+  position: absolute;
+  top: 18px;
+  left: 84px;
+}
+.about,
+.profile-icon,
+.stories {
+  position: absolute;
+  top: 19px;
+  left: 307px;
+}
+.profile-icon,
+.stories {
+  left: 190px;
+  cursor: pointer;
+}
+.profile-icon {
+  height: 5.29%;
+  width: 3.88%;
+  top: 1.02%;
+  right: 0.39%;
+  bottom: 93.69%;
+  left: 95.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home {
+  width: 1263.58px;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/home@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-snow);
+  font-family: var(--font-imprima);
+}

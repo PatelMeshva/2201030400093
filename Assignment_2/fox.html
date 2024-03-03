@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./fox.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="fox">
+      <div class="fox-child"></div>
+      <img class="logo-icon8" alt="" src="./public/logo.svg" />
+
+      <div class="home6" id="homeText">Home</div>
+      <div class="about5">About</div>
+      <div class="stories7" id="storiesText">Stories</div>
+      <img
+        class="profile-icon6"
+        alt=""
+        src="./public/profile.svg"
+        id="profile"
+      />
+
+      <div class="the-fox-and">The fox and the grapes</div>
+      <img class="fox-1-icon" alt="" src="./public/fox-1@2x.png" />
+
+      <div class="one-day-a-container">
+        <p class="one-day-a">
+          One day, a fox became very hungry. He went out to search for some
+          food. He searched high and low but couldn’t find anything to eat.
+        </p>
+        <p class="one-day-a">
+          Finally, as his stomach rumbled, he stumbled upon a farmer’s wall. At
+          the top of the wall, he saw the biggest, juiciest grapes he’d ever
+          seen. They were a rich purple, telling the fox they were ready to be
+          eaten.
+        </p>
+        <p class="one-day-a">
+          To reach the grapes, the fox had to jump high in the air. As he
+          jumped, he opened his mouth to catch the grapes, but he missed. The
+          fox tried again but missed once more.
+        </p>
+      </div>
+      <div class="he-tried-a-container">
+        <p class="one-day-a">He tried a few more times but kept failing.</p>
+        <p class="one-day-a">
+          Finally, the fox decided to give up and go home. While he walked away,
+          he muttered, “I’m sure the grapes were sour anyway.”
+        </p>
+      </div>
+      <div class="never-despise-what">
+        Never despise what we can’t have; nothing comes easy.
+      </div>
+      <div class="the-moral1">The Moral</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var storiesText = document.getElementById("storiesText");
+      if (storiesText) {
+        storiesText.addEventListener("click", function (e) {
+          window.location.href = "./story.html";
+        });
+      }
+      
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>

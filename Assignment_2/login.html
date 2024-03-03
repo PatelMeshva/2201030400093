@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="login1">
+        <div class="footer">
+          <div class="cookies-parent">
+            <div class="cookies">Cookies</div>
+            <div class="cookies">Legal policy</div>
+          </div>
+          <i class="cookies">Made with love in nowhere</i>
+          <div class="cookies">Copyright 2024</div>
+        </div>
+        <div class="sign-up" id="signUpContainer">
+          <div class="button">
+            <div class="create-account">Create account</div>
+          </div>
+        </div>
+        <div class="did-you-forget">Did you forget your password?</div>
+        <div class="button1" id="buttonContainer">
+          <div class="create-account">Log in</div>
+        </div>
+        <div class="input-password">
+          <div class="email">Password</div>
+          <div class="input">
+            <div class="johndoegmailcom">***********</div>
+          </div>
+        </div>
+        <div class="input-email">
+          <div class="email">Email</div>
+          <div class="input">
+            <div class="johndoegmailcom1">john.doe@gmail.com</div>
+          </div>
+        </div>
+        <div class="or">
+          <div class="or-child"></div>
+          <div class="or1">Or</div>
+          <div class="or-child"></div>
+        </div>
+        <div class="social-button">
+          <img class="google-icon" alt="" src="./public/google.svg" />
+
+          <img class="facebook-icon" alt="" src="./public/facebook.svg" />
+
+          <div class="sign-in-with">Sign in with Google</div>
+        </div>
+        <div class="login-with-the">
+          Login with the data you entered during your registration.
+        </div>
+        <div class="login2">Login</div>
+        <img class="logo-icon1" alt="" src="./public/logo.svg" />
+      </div>
+      <div class="image-sidebar">
+        <img class="img-icon" alt="" src="./public/img@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var signUpContainer = document.getElementById("signUpContainer");
+      if (signUpContainer) {
+        signUpContainer.addEventListener("click", function (e) {
+          window.location.href = "./registration.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      </script>
+  </body>
+</html>

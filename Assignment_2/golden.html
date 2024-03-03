@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./golden.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="golden">
+      <div class="golden-child"></div>
+      <img class="logo-icon7" alt="" src="./public/logo.svg" />
+
+      <div class="home5" id="homeText">Home</div>
+      <div class="about4">About</div>
+      <div class="stories6" id="storiesText">Stories</div>
+      <img
+        class="profile-icon5"
+        alt=""
+        src="./public/profile.svg"
+        id="profile"
+      />
+
+      <div class="the-golden-touch1">The golden touch</div>
+      <img class="golden-1-icon" alt="" src="./public/golden-1@2x.png" />
+
+      <div class="there-once-was-container">
+        <p class="there-once-was">
+          There once was a king named Midas who did a good deed for a satyr — a
+          spirit of nature. Dionysus, the god of wine, then granted him a wish.
+        </p>
+        <p class="there-once-was">
+          For his wish, Midas asked that whatever he touched would turn to gold.
+          Despite Dionysus’ efforts to prevent it, Midas pleaded that this was a
+          fantastic wish, so it was bestowed.
+        </p>
+        <p class="there-once-was">
+          Excited about his newly-earned powers, Midas started touching all
+          kinds of things, turning each item into pure gold.
+        </p>
+        <p class="there-once-was">
+          But soon, Midas became hungry. As he picked up a piece of food, he
+          found he couldn’t eat it. It had turned to gold in his hand.
+        </p>
+      </div>
+      <div class="hungry-midas-groaned-container">
+        <p class="there-once-was">
+          Hungry, Midas groaned, “I’ll starve! Perhaps this was not such an
+          excellent wish after all!”
+        </p>
+        <p class="there-once-was">
+          Seeing his dismay, Midas’ beloved daughter threw her arms around him
+          to comfort him, and she, too, turned to gold. “The golden touch is no
+          blessing,” Midas cried.
+        </p>
+      </div>
+      <div class="the-moral">The Moral</div>
+      <div class="greed-will-always">Greed will always lead to downfall.</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var storiesText = document.getElementById("storiesText");
+      if (storiesText) {
+        storiesText.addEventListener("click", function (e) {
+          window.location.href = "./story.html";
+        });
+      }
+      
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>

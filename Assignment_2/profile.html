@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile">
+      <img class="profile-icon6" alt="" src="./public/profile.svg" />
+
+      <div class="name-parent">
+        <div class="name">Name :</div>
+        <div class="name1"></div>
+      </div>
+      <div class="phone-parent">
+        <div class="name">Phone :</div>
+        <div class="name1"></div>
+      </div>
+      <div class="email-parent">
+        <div class="name">Email :</div>
+        <div class="name1"></div>
+      </div>
+      <div class="logout-parent" id="groupContainer3">
+        <div class="logout"></div>
+        <b class="log-out">Log Out</b>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer3 = document.getElementById("groupContainer3");
+      if (groupContainer3) {
+        groupContainer3.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

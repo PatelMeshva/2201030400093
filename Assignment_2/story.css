@@ -1,0 +1,88 @@
+.story-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-peru);
+  width: 1440px;
+  height: 73px;
+}
+.logo-icon4 {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 46.5px;
+  height: 41.1px;
+}
+.about1,
+.home2,
+.stories1 {
+  position: absolute;
+  color: var(--color-snow);
+}
+.home2 {
+  top: 18px;
+  left: 84px;
+  cursor: pointer;
+}
+.about1,
+.stories1 {
+  top: 19px;
+  left: 307px;
+}
+.stories1 {
+  left: 190px;
+}
+.profile-icon2 {
+  position: absolute;
+  height: 5.29%;
+  width: 3.88%;
+  top: 1.02%;
+  right: 0.39%;
+  bottom: 93.69%;
+  left: 95.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.available-in-video {
+  position: absolute;
+  top: 53px;
+  left: -60px;
+  font-size: 60.2px;
+  white-space: pre-wrap;
+}
+.hindu-scriptures1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-32xl);
+}
+.hindu-scriptures {
+  top: 194px;
+}
+.children-stories,
+.hindu-scriptures,
+.stories2 {
+  position: absolute;
+  left: 60px;
+  font-size: var(--font-size-19xl);
+}
+.children-stories {
+  top: 246px;
+  cursor: pointer;
+}
+.stories2 {
+  top: 290px;
+}
+.story {
+  width: 1263.58px;
+  position: relative;
+  background-color: var(--color-sienna);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-imprima);
+}

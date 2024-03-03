@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./story.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="story">
+      <div class="story-child"></div>
+      <img class="logo-icon4" alt="" src="./public/logo.svg" />
+
+      <div class="home2" id="homeText">Home</div>
+      <div class="about1">About</div>
+      <div class="stories1">Stories</div>
+      <img
+        class="profile-icon2"
+        alt=""
+        src="./public/profile.svg"
+        id="profile"
+      />
+
+      <div class="available-in-video">
+        Available in video and read both Types :
+      </div>
+      <div class="hindu-scriptures">
+        <ul class="hindu-scriptures1">
+          <li>Hindu scriptures</li>
+        </ul>
+      </div>
+      <div class="children-stories" id="childrenStoriesText">
+        <ul class="hindu-scriptures1">
+          <li>Children stories</li>
+        </ul>
+      </div>
+      <div class="stories2">
+        <ul class="hindu-scriptures1">
+          <li>Stories</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var childrenStoriesText = document.getElementById("childrenStoriesText");
+      if (childrenStoriesText) {
+        childrenStoriesText.addEventListener("click", function (e) {
+          window.location.href = "./CS.html";
+        });
+      }
+      </script>
+  </body>
+</html>

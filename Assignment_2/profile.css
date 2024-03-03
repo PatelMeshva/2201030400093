@@ -1,0 +1,77 @@
+.profile-icon6 {
+  position: absolute;
+  top: 0;
+  left: 654px;
+  width: 131px;
+  height: 131px;
+}
+.name,
+.name1 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.name1 {
+  top: 0;
+  left: 113px;
+  background-color: var(--color-gainsboro-100);
+  width: 518px;
+  height: 46px;
+}
+.email-parent,
+.name-parent,
+.phone-parent {
+  position: absolute;
+  top: 159px;
+  left: 365px;
+  width: 631px;
+  height: 46px;
+}
+.email-parent,
+.phone-parent {
+  top: 233px;
+}
+.email-parent {
+  top: 307px;
+}
+.logout {
+  position: absolute;
+  top: calc(50% - 39px);
+  left: 0;
+  border-radius: 23px;
+  background-color: var(--color-gainsboro-100);
+  width: 314px;
+  height: 78px;
+}
+.log-out {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 93px);
+  line-height: 20px;
+}
+.logout-parent {
+  position: absolute;
+  top: calc(50% + 283px);
+  left: 580px;
+  width: 314px;
+  height: 78px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--input-labels);
+}
+.profile {
+  width: 1263.58px;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/profile@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-imprima);
+}

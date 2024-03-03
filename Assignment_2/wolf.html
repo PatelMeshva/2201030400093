@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./wolf.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="wolf">
+      <div class="wolf-child"></div>
+      <img class="logo-icon6" alt="" src="./public/logo.svg" />
+
+      <div class="home4" id="homeText">Home</div>
+      <div class="about3">About</div>
+      <div class="stories5" id="storiesText">Stories</div>
+      <img
+        class="profile-icon4"
+        alt=""
+        src="./public/profile.svg"
+        id="profile"
+      />
+
+      <div class="the-boy-who">The boy who cried wolf</div>
+      <img class="wolf-1-icon" alt="" src="./public/wolf-1@2x.png" />
+
+      <div class="once-there-was-container">
+        <p class="once-there-was">
+          Once, there was a boy who became bored when he watched over the
+          village sheep grazing on the hillside. To entertain himself, he sang
+          out, “Wolf! Wolf! The wolf is chasing the sheep!”
+        </p>
+        <p class="once-there-was">
+          When the villagers heard the cry, they ran up the hill to drive the
+          wolf away. But when they arrived, they saw no wolf. The boy was amused
+          when he saw their angry faces.
+        </p>
+        <p class="once-there-was">
+          “Don’t scream wolf when there is no wolf, boy!” the villagers warned.
+          They angrily went back down the hill.
+        </p>
+      </div>
+      <div class="later-the-shepherd-container">
+        <p class="once-there-was">
+          Later, the shepherd boy cried out once again, “Wolf! Wolf! The wolf is
+          chasing the sheep!” To his amusement, the villagers came running up
+          the hill to scare the wolf away.
+        </p>
+        <p class="once-there-was">
+          As they saw there was no wolf, they said strictly, “Save your
+          frightened cry for when there really is a wolf! Don’t cry ‘wolf’ when
+          there is no wolf!” But the boy grinned at their words while they
+          walked, grumbling down the hill once more.
+        </p>
+        <p class="once-there-was">
+          Later, the boy saw a real wolf sneaking around his flock. Alarmed, he
+          jumped on his feet and cried out as loud as he could, “Wolf! Wolf!”
+          But the villagers thought he was fooling them again, and they didn’t
+          come to help.
+        </p>
+        <p class="once-there-was">
+          At sunset, the villagers went looking for the boy who hadn’t returned
+          with their sheep. When they went up the hill, they found him weeping.
+        </p>
+        <p class="once-there-was">
+          “There was a wolf here! The flock is gone! I cried out, ‘Wolf!’ but
+          you didn’t come,” he wailed.
+        </p>
+        <p class="once-there-was">
+          An older man went to comfort the boy. As he put his arm around him, he
+          said, “Nobody believes a liar, even when he is telling the truth!”
+        </p>
+      <div class="the-moral2">The Moral</div>
+        <p class="once-there-was">
+          Lying breaks trust, and no one believes a liar — even when they tell the truth.
+        </p>
+
+      </div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var storiesText = document.getElementById("storiesText");
+      if (storiesText) {
+        storiesText.addEventListener("click", function (e) {
+          window.location.href = "./story.html";
+        });
+      }
+      
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>

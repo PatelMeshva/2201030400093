@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-imprima: Imprima;
+  --input-labels: Inter;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-29xl: 48px;
+  --input-labels-size: 16px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-19xl: 38px;
+  --font-size-11xl: 30px;
+  --font-size-37xl: 56px;
+
+  /* Colors */
+  --color-snow: #fcf5f5;
+  --color-peru: rgba(216, 146, 95, 0.89);
+  --white: #fff;
+  --color-black: #000;
+  --color-dimgray: #4d4d4d;
+  --body: #475e6b;
+  --secondary-text: #313957;
+  --color-gainsboro: #cfdfe2;
+  --color-gainsboro-100: #d9d9d9;
+  --titles: #1d1c3f;
+  --buttons: #2554fb;
+  --buttons-secondary: #e8edff;
+  --color-sienna: #804c31;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-lg: 18px;
+  --padding-8xs: 5px;
+  --padding-mini: 15px;
+  --padding-32xl: 51px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-21xl: 40px;
+}
